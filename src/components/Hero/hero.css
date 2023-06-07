@@ -1,0 +1,112 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-h {
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.right-h {
+    flex: 1;
+}
+
+.ad {
+    margin-top: 4rem;
+    background-color: #363d42;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ad span {
+    z-index: 2;
+}
+
+.ad div {
+    position: absolute;
+    background-color: var(--orange);
+    width: 5.4rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+}
+
+.line {
+    background-color: white;
+    height: 3px;
+}
+
+.line--shortBar1 {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 45%;
+    animation: 3s linear 1s infinite running slidein;
+}
+
+.line--shortBar2 {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 35%;
+    opacity: 0.2;
+    animation: 3s linear 1s infinite running slidein;
+    animation-delay: -1.5s;
+}
+
+.line--shortBar3 {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 40%;
+    opacity: 0.2;
+    animation: 3s linear 1s infinite running slidein;
+}
+
+.line--shortBar4 {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 30%;
+    opacity: 0.2;
+    animation: 3s linear 1s infinite running slidein;
+}
+
+.line--shortBar5 {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 40%;
+    animation: 3s linear 1s infinite running slidein;
+}
+
+@keyframes slidein{
+    from {
+        /* pushes the sun down past the viewport */
+        transform: translateX(0);
+      }
+      to {
+        /* returns the sun to its default position */
+        transform: translateX(110vh);
+      }
+}
+
