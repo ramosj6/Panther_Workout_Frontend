@@ -60,6 +60,7 @@ const Reasons = () => {
                 <img src={Nike} alt="" />
             </div>
         </div>
+        <div className="blur blur-f"></div>
     </div>
   );
 };

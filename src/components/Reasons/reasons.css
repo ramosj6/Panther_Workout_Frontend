@@ -82,3 +82,12 @@
 .partners>img {
     width: 2.5rem;
 }
+
+.blur-f {
+    bottom: 50;
+    right: 0%;
+    width: 90rem;
+    height: 40rem;
+    filter: blur(400px);
+    background: rgb(0, 132, 255);
+}
